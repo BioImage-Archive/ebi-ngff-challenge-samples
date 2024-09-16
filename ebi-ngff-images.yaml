@@ -1,0 +1,72 @@
+images:
+    leaf_waves:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-zarr-test/S-BIAD464/IM109.zarr/0
+        name: "Calcium wave dynamics"
+        description: "Time lapse image of whole leaves expressing calcium and glutamate responses"
+        organism_id: NCBI:txid3701
+        modality_id: obo:FBbi_00000251
+        output_chunks: 1,1,1,128,128
+    hela_example:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-zarr-test/S-BIAD144/IM1.zarr/0
+        name: "HeLa cells"
+        description: "HeLa cells showing click chemistry and immunofluorescence"
+        organism_id: NCBI:txid9601
+        modality_id: obo:FBbi_00000251
+    rbc_plasmodium:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/EMPIAR-10392/IM8/IM8.zarr/0
+        name: "Pladmodium falciparum schizont at parasitophorous vacuolar membrane (PVM) rupture"
+        description: "Three-dimensional ultrastructure of Plasmodium falciparum throughout cytokinesis"
+        organism_id: NCBI:txid5833
+        modality_id: obo:FBbi_00050000 # FIB-SEM
+    sea_spider:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD606/1538da69-c145-4326-9a18-496c766af86e/1538da69-c145-4326-9a18-496c766af86e.zarr
+        name: "3D micro-CT image of sea spider (Pycnogonum litorale)"
+        description: "The sea spider Pycnogonum litorale overturns the paradigm of the absence of axial regeneration in molting animals, micro computed tomography image"
+        organism_id: NCBI:txid261975
+        modality_id: obo:FBbi_00001002 # X-ray computed tomography
+    rat_liver:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD501/IM1/IM1.zarr/0
+        name: "Histopathology image of rat liver"
+        description: "Rattus norvegicus (brown rat) liver section, treated with 1% cholesterol + 0.25% sodium cholate"
+        organism_id: NCBI:txid10116
+        modality_id: obo:FBbi_00000243 # Bright-field microscopy
+        output_chunks: 1,1,1,128,128
+        output_shards: 1,1,1,2048,2048
+    platy_parapodia:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/EMPIAR-10310/IM1/IM1.zarr/0
+        name: "FIB-SEM of parapodia from Platynereis dumerilii"
+        description: "Platynereis dumerilii images aligned using alignment to median smoothed template (AMST)"
+        organism_id: NCBI:txid6359
+        modality_id: obo:FBbi_00050000 # FIB-SEM
+        output_chunks: 1,1,32,32,32
+        output_shards: 1,1,128,128,128
+    mesospim:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/S-BIAD963/f4baa972-2cd6-4185-ac11-0a1531162686/f4baa972-2cd6-4185-ac11-0a1531162686.zarr/0
+        name: "Mouse CNS, mesoSPIM"
+        description: "Mouse central nervous system (CNS) at 5x magnification"
+        organism_id: NCBI:txid10090
+        modality_id: obo:FBbi_00000369 # SPIM
+        output_chunks: 1,1,32,32,32
+        output_shards: 1,1,128,128,128        
+    bronchial_organoid:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/testbucket-bia/S-BIAD1348/cb9750b8-3788-4cd7-8024-ec2e20665795/ab69da43-29e5-4b13-b877-d02d6f85d9b9.ome.zarr/0
+        name: "Human bronchial organoid"
+        description: "Imaging of the infection of a human bronchial organoid by Pseudomonas aeruginosa"
+        organism_id: NCBI:txid9606
+        modality_id: obo:FBbi_00000251 # Confocal microscopy
+    phloem_pole:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/EMPIAR-10442/IM1/IM1.zarr/0
+        name: "Arabidopsis phloem pole"
+        description: "Five-day-old Col-0 Arabidopsis thaliana root, phloem pole unloading zone (339-381 um from the root tip)"
+        organism_id: NCBI:txid3701
+        modality_id: obo:FBbi_00000585 # SBF-SEM
+        output_chunks: 1,1,32,32,32
+        output_shards: 1,1,128,128,128
+    chlamy_example:
+        v2_s3_uri: https://uk1s3.embassy.ebi.ac.uk/bia-integrator-data/EMPIAR-11756/0f0dad18-106d-41cf-9fc7-f63ee79f0ef9/0f0dad18-106d-41cf-9fc7-f63ee79f0ef9.zarr/0
+        name: "C. reinhardtii tomogram"
+        description: "cryogenic-sample electron microscopy (CryoET) image of C. reinhardtii prepared using cryo-plasmaFIB milling"
+        organism_id: NCBI:txid3055
+        modality_id: obo:FBbi_00001004 # Tomography - note, no good CryoET option
+        output_chunks: 1,1,32,32,32
+        output_shards: 1,1,128,128,128
